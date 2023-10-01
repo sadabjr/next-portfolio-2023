@@ -1,0 +1,122 @@
+export const projects = [
+  {
+    title: 'XROS Project',
+    description: "This Project was a part of XROS Fellowship. Built an amazing 3D Simulated experience of Live match in AR with interaction. Implemented ThreeJS, A-frame, WebXR API and node for working.",
+      image: '/images/xros.png',
+      tags: [ 'ThreeJS', 'Augmented Reality', 'WebXR API'],
+    source: 'https://github.com/n-ay/3d-live-simulated-match-with-interaction.git',
+    visit: 'https://3d-live-simulated-match-with-interaction.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'HireXS',
+    description: " Led a cross-functional team to create a full-stack web portal, leveraging React, Express, and MongoDB. Integrated ML-based CV analysis and an OpenAI-powered assessment chatbot, enhancing candidate evaluation and job matching.",
+      image: '/images/hireXS.png',
+      tags: [ 'MERN', 'CV Analysis', 'OpenAI API'],
+    source: 'https://github.com/Vasu1712/HireXS.git',
+    visit: 'https://hire-xs.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'VisionXR',
+    description: "Spearheaded the development of VisionXR, an innovative AR platform revolutionizing product interaction. Utilized ReactJS for frontend flexibility and Cloudinary for glb/gltf model storage. Orchestrated backend integration with three.js and Parcel package to create immersive AR demos. Deployed the solution through GitHub and Onrender, bridging the gap between vendors and customers and transforming product understanding.",
+      image: '/images/visionXR.png',
+      tags: [ 'ThreeJS', 'Cloudinary', 'WebXR API'],
+    source: 'https://github.com/Vasu1712/VisionXR.git',
+    visit: 'https://vision-xr.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'FarmU',
+    description: "Spearheaded the development of VisionXR, an innovative AR platform revolutionizing product interaction. Utilized ReactJS for frontend flexibility and Cloudinary for glb/gltf model storage. Orchestrated backend integration with three.js and Parcel package to create immersive AR demos. Deployed the solution through GitHub and Onrender, bridging the gap between vendors and customers and transforming product understanding.",
+      image: '/images/farmU.png',
+      tags: [ 'MERN', 'Firebase', 'Stripe API'],
+    source: 'https://github.com/Vasu1712/Farm-U.git',
+    visit: 'https://farm-u.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'TATA Stock Lens',
+    description: "This project is my submission for this year Snap AR Lensathon. The lens uses Alpaca API to dynamically demonstrate the stock high point on a given date accessed through a slider provided. Got hands-on experience with AR and Alpaca API in this project.",
+      image: '/images/tata.png',
+      tags: [ 'Lens Studio', 'AR', 'Alpaca API'],
+    source: 'https://github.com/Vasu1712/tata-stock-lens.git',
+    visit: 'https://lens.snapchat.com/9000e4e6559a4f888223d866d7cb5d7b?sender_web_id=64bfb0a3-5e93-4e0b-88c5-cd55cc56afcf&device_type=desktop&is_copy_url=true',
+    id: 1,
+  },
+  {
+    title: 'Portfolio',
+    description: "Using React, Node.js I've tried to summarize myself in a dynamic and good looking webapp. I've learned the blazing fast and trending-NextJS through the means of implementing this project.",
+      image: '/images/portfolio.png',
+      tags: [ 'React', 'Node', 'Next'],
+    source: 'https://nextjs-portfolio-tau-six.vercel.app',
+    visit: 'https://github.com/Vasu1712/nextjs-portfolio.git',
+    id: 2,
+  },
+  {
+    title: 'Team ARES WebApp',
+    description:"We have implemented the Graphical user Interface using Electron JS for smoother rover control on our base station. It contains several modules including propulsion, control, sensor and science module, along with robotic arm control. It includes display of motor speeds, video streams, sensor data along with fan and ambient lighting control.",
+    image: '/images/AresApplication.png',
+    tags: ['Flask', 'ElectronJS', 'HTML', 'CSS'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 3,
+  },
+  // {
+  //   title: 'WebRTC App',
+  //   description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+  //     image: '/images/gohost.jpg',
+  //     tags: ['React', 'WebRTC'],
+  //   source: 'https://google.com',
+  //   visit: 'https://google.com',
+  //   id: 2,
+  // },
+  {
+    title: 'Buri-Game',
+    description: "A simple spoof game inspired from the OG Mario video game with smooth scrolling effects and animations. Implemented using Vanilla Javascript and HTML Canvas, hosted on netlify.",
+    image: '/images/buri.png',
+    tags: ['Javascript'],
+    source: 'https://github.com/Vasu1712/Buri_game.git',
+    visit: '',
+    id: 4,
+  },
+  {
+    title: 'Team ARES Website',
+    description: "Official Website of Team ARES Robotics to showcase our sponsors, information of active and former team members,rovers etc. This is built using HTML, CSS, JS and Bootstrap",
+    image: '/images/ares.png',
+    tags: ['HTML', 'CSS', 'JS', 'Bootstrap'],
+    source: 'https://github.com/TeamARES/TeamARES-Website.git',
+    visit: 'https://google.com',
+    id: 5,
+  },
+  {
+    title: 'Monocular Odometry',
+    description: "Open CV implementation of Monocular Odometry which Nister's Five Point Algorithm for Essential Matrix estimation, and FAST features, with a KLT tracker. Use KITTI dataset ground truth files for scale information.",
+    image: '/images/mono.png',
+    tags: ['OpenCV', 'C++'],
+    source: 'https://github.com/Vasu1712/monocular-odometry.git',
+    visit: 'https://google.com',
+    id: 6,
+  },
+  {
+    title: 'PODium',
+    description: "A rare amalgamation of blogging, podcasting, content writing and interviewing frontend site. FrontEnd build on HTML, CSS, JS and Bootstrap",
+    image: '/images/podium.png',
+    tags: ['HTML', 'CSS', 'JS', 'Bootstrap'],
+    source: 'https://github.com/Vasu1712/PODium.git',
+    visit: 'https://podium--podiumauthentic.repl.co/',
+    id: 7,
+  }
+];
+
+export const TimeLineData = [
+
+  { year: 2016, text1: 'Class X ', },
+  { year: 2017, text1: 'Class XII ', },
+  { year: 2019, text1: 'B Tech I Year ', },
+  { year: 2023, text1: 'Web Developer intern ', text2:'at Destek infosolution Pvt. Ltd' , text3:'2022 Dec-2023 June'},
+];
+
+export const Hero =  [
+  { handleClick: 'https://drive.google.com/file/d/1nK7hPSZJX8WI49HHFz6MIDwAeVVR-jKT/view?usp=sharing'}
+]
